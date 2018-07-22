@@ -49,7 +49,7 @@ public class Dlt_Confirm extends JFrame {
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		setBounds(100, 100, 348, 213);
 		contentPane = new JPanel();
-		contentPane.setBackground(new Color(221,222,236));
+		contentPane.setBackground(new Color(10, 13, 33));
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
@@ -69,7 +69,7 @@ public class Dlt_Confirm extends JFrame {
 		btnOk.setFocusPainted(false);
 		btnOk.setBorderPainted(false);
 		btnOk.setBorder(new LineBorder(new Color(0, 191, 255), 5, true));
-		btnOk.setBackground(Color.LIGHT_GRAY);
+		btnOk.setBackground(new Color(255, 0, 0));
 		btnOk.setBounds(52, 127, 95, 23);
 		contentPane.add(btnOk);
 		
@@ -85,7 +85,7 @@ public class Dlt_Confirm extends JFrame {
 		btnCancel.setFocusPainted(false);
 		btnCancel.setBorderPainted(false);
 		btnCancel.setBorder(new LineBorder(new Color(0, 191, 255), 5, true));
-		btnCancel.setBackground(Color.LIGHT_GRAY);
+		btnCancel.setBackground(new Color(2, 145, 255));
 		btnCancel.setBounds(170, 128, 95, 23);
 		contentPane.add(btnCancel);
 		

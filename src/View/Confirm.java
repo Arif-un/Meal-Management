@@ -47,7 +47,7 @@ public class Confirm extends JFrame {
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		setBounds(100, 100, 348, 213);
 		contentPane = new JPanel();
-		contentPane.setBackground(new Color(215,2151,233));
+		contentPane.setBackground(new Color(10, 13, 33));
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
@@ -87,7 +87,7 @@ public class Confirm extends JFrame {
 		btnOk.setFocusPainted(false);
 		btnOk.setBorderPainted(false);
 		btnOk.setBorder(new LineBorder(new Color(0, 191, 255), 5, true));
-		btnOk.setBackground(new Color(215,215,236));
+		btnOk.setBackground(new Color(2, 145, 255));
 		btnOk.setBounds(52, 127, 95, 23);
 		contentPane.add(btnOk);
 		
@@ -102,7 +102,7 @@ public class Confirm extends JFrame {
 		btnCancel.setFocusPainted(false);
 		btnCancel.setBorderPainted(false);
 		btnCancel.setBorder(new LineBorder(new Color(0, 191, 255), 5, true));
-		btnCancel.setBackground(new Color(215,215,233));
+		btnCancel.setBackground(new Color(2, 145, 255));
 		btnCancel.setBounds(170, 128, 95, 23);
 		contentPane.add(btnCancel);
 		

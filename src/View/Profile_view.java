@@ -39,7 +39,7 @@ private JTextField new_path;
   public void buildGUI(String get_name,String get_id,String get_roll,String get_reg,String get_phone,String get_adress,String get_status, String get_photo_path)
   {
      final JFrame f1 = new JFrame();
-    f1.getContentPane().setBackground(new Color(221,222,232));
+    f1.getContentPane().setBackground(new Color(10,13,18));
     f1.setUndecorated(true);
     f1.setSize(701,452);
     f1.setLocationRelativeTo(null);
@@ -77,7 +77,7 @@ private JTextField new_path;
     btnRemoveThisMember.setBorderPainted(false);
     btnRemoveThisMember.setBorder(new LineBorder(new Color(0, 191, 255), 5, true));
     btnRemoveThisMember.setFocusPainted(false);
-    btnRemoveThisMember.setBackground(new Color(153, 153, 153));
+    btnRemoveThisMember.setBackground(new Color(2, 145, 255));
     btnRemoveThisMember.setBounds(237, 418, 166, 23);
     f1.getContentPane().add(btnRemoveThisMember);
     
@@ -154,14 +154,14 @@ private JTextField new_path;
     	}
     	@Override
     	public void focusLost(FocusEvent e) {
-    		name_s.setForeground(new Color(221,222,232));
+    		name_s.setForeground(new Color(10,13,18));
     	}
     });
-    name.setCaretColor(Color.DARK_GRAY);
-    name.setForeground(Color.DARK_GRAY);
+    name.setCaretColor(new Color(51, 255, 255));
+    name.setForeground(new Color(0, 191, 255));
     name.setColumns(10);
     name.setBorder(null);
-    name.setBackground(new Color(221,222,232));
+    name.setBackground(new Color(10, 13, 18));
     name.setBounds(419, 49, 153, 20);
     f1.getContentPane().add(name);
     
@@ -181,14 +181,14 @@ private JTextField new_path;
     	}
     	@Override
     	public void focusLost(FocusEvent e) {
-    		id_s.setForeground(new Color(221,222,232));
+    		id_s.setForeground(new Color(10,13,18));
     	}
     });
-    id.setCaretColor(Color.DARK_GRAY);
-    id.setForeground(Color.DARK_GRAY);
+    id.setCaretColor(new Color(51, 255, 255));
+    id.setForeground(new Color(0, 191, 255));
     id.setColumns(10);
     id.setBorder(null);
-    id.setBackground(new Color(221,222,232));
+    id.setBackground(new Color(10, 13, 18));
     id.setBounds(419, 82, 153, 20);
     f1.getContentPane().add(id);
     
@@ -207,14 +207,14 @@ private JTextField new_path;
     	}
     	@Override
     	public void focusLost(FocusEvent e) {
-    		roll_s.setForeground(new Color(221,222,232));
+    		roll_s.setForeground(new Color(10,13,18));
     	}
     });
-    roll.setCaretColor(Color.DARK_GRAY);
-    roll.setForeground(Color.DARK_GRAY);
+    roll.setCaretColor(new Color(51, 255, 255));
+    roll.setForeground(new Color(0, 191, 255));
     roll.setColumns(10);
     roll.setBorder(null);
-    roll.setBackground(new Color(221,222,232));
+    roll.setBackground(new Color(10, 13, 18));
     roll.setBounds(419, 117, 153, 20);
     f1.getContentPane().add(roll);
     
@@ -227,14 +227,14 @@ private JTextField new_path;
     	}
     	@Override
     	public void focusLost(FocusEvent e) {
-    		reg_s.setForeground(new Color(221,222,232));
+    		reg_s.setForeground(new Color(10,13,18));
     	}
     });
-    reg.setCaretColor(Color.DARK_GRAY);
-    reg.setForeground(Color.DARK_GRAY);
+    reg.setCaretColor(new Color(51, 255, 255));
+    reg.setForeground(new Color(0, 191, 255));
     reg.setColumns(10);
     reg.setBorder(null);
-    reg.setBackground(new Color(221,222,232));
+    reg.setBackground(new Color(10, 13, 18));
     reg.setBounds(419, 158, 153, 20);
     f1.getContentPane().add(reg);
     
@@ -259,14 +259,14 @@ private JTextField new_path;
     	}
     	@Override
     	public void focusLost(FocusEvent e) {
-    		phone_s.setForeground(new Color(221,222,232));
+    		phone_s.setForeground(new Color(10,13,18));
     	}
     });
-    phone.setCaretColor(Color.DARK_GRAY);
-    phone.setForeground(Color.DARK_GRAY);
+    phone.setCaretColor(new Color(51, 255, 255));
+    phone.setForeground(new Color(0, 191, 255));
     phone.setColumns(10);
     phone.setBorder(null);
-    phone.setBackground(new Color(221,222,232));
+    phone.setBackground(new Color(10, 13, 18));
     phone.setBounds(419, 195, 153, 20);
     f1.getContentPane().add(phone);
     
@@ -303,7 +303,7 @@ private JTextField new_path;
     status_c.setFocusable(false);
     status_c.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
     status_c.setBorder(null);
-    status_c.setBackground(new Color(221,222,232));
+    status_c.setBackground(new Color(51, 153, 255));
     status_c.setFont(new Font("Calibri Light", Font.BOLD, 13));
     status_c.setModel(new DefaultComboBoxModel(new String[] {"Active", "Inactive"}));
     status_c.setBounds(429, 238, 81, 20);
@@ -322,12 +322,12 @@ private JTextField new_path;
     	@Override
     	public void focusLost(FocusEvent e) {
     		
-    		adress.setBorder(new LineBorder(new Color(221,222,232)));
+    		adress.setBorder(new LineBorder(new Color(10,13,18)));
     	}
     });
     adress.setCaretColor(new Color(51, 255, 255));
     adress.setForeground(new Color(51, 153, 255));
-    adress.setBackground(new Color(204, 204, 204));
+    adress.setBackground(new Color(10, 13, 40));
     adress.setBounds(430, 281, 202, 92);
     f1.getContentPane().add(adress);
     
@@ -411,7 +411,7 @@ private JTextField new_path;
     btnUpdateMemberInfo.setFocusPainted(false);
     btnUpdateMemberInfo.setBorderPainted(false);
     btnUpdateMemberInfo.setBorder(new LineBorder(new Color(0, 191, 255), 5, true));
-    btnUpdateMemberInfo.setBackground(new Color(153, 153, 153));
+    btnUpdateMemberInfo.setBackground(new Color(2, 145, 255));
     btnUpdateMemberInfo.setBounds(421, 418, 166, 23);
     f1.getContentPane().add(btnUpdateMemberInfo);
     
@@ -427,7 +427,7 @@ private JTextField new_path;
     btnCancel.setFocusPainted(false);
     btnCancel.setBorderPainted(false);
     btnCancel.setBorder(new LineBorder(new Color(0, 191, 255), 5, true));
-    btnCancel.setBackground(new Color(153, 153, 153));
+    btnCancel.setBackground(new Color(2, 145, 255));
     btnCancel.setBounds(605, 418, 86, 23);
     f1.getContentPane().add(btnCancel);
     
@@ -436,11 +436,11 @@ private JTextField new_path;
     path.setEditable(false);
     path.setText(get_photo_path);
     
-    path.setForeground(Color.DARK_GRAY);
+    path.setForeground(new Color(0, 191, 255));
     path.setColumns(10);
-    path.setCaretColor(Color.DARK_GRAY);
+    path.setCaretColor(new Color(51, 255, 255));
     path.setBorder(null);
-    path.setBackground(new Color(221,222,232));
+    path.setBackground(new Color(10, 13, 18));
     path.setBounds(101, 302, 153, 20);
     f1.getContentPane().add(path);
     
@@ -485,12 +485,12 @@ private JTextField new_path;
     
     new_path = new JTextField();
     new_path.setText((String) null);
-    new_path.setForeground(Color.DARK_GRAY);
+    new_path.setForeground(new Color(0, 191, 255));
     new_path.setEditable(false);
     new_path.setColumns(10);
-    new_path.setCaretColor(Color.DARK_GRAY);
+    new_path.setCaretColor(new Color(51, 255, 255));
     new_path.setBorder(null);
-    new_path.setBackground(new Color(221,222,232));
+    new_path.setBackground(new Color(10, 13, 18));
     new_path.setBounds(102, 366, 153, 20);
     f1.getContentPane().add(new_path);
     

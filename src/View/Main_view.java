@@ -195,7 +195,7 @@ public class Main_view
     		sidebar.setBounds(0, 62, 64, 464);
     	}
     });
-    sidebar.setBackground(new Color(172,174,248));
+    sidebar.setBackground(new Color(25,27,31));
     sidebar.setBounds(0, 62, 64, 464);
     f.getContentPane().add(sidebar);
     sidebar.setLayout(null);
@@ -207,11 +207,11 @@ public class Main_view
     meal.setRequestFocusEnabled(false);
     meal.setRolloverIcon(new ImageIcon(Main_view.class.getResource("/img/tygr.png")));
     meal.setBorderPainted(false);
-    meal.setBackground(new Color(172,174,248));
+    meal.setBackground(new Color(25,27,31));
     meal.setFocusPainted(false);
     
     				if(meal.isSelected()){
-    					meal.setBackground(new Color(229,233,240));
+    					meal.setBackground(new Color(5,13,22));
     					/*button_1.setSelected(false);
     					button_2.setSelected(false);
     					button_3.setSelected(false);*/
@@ -232,18 +232,18 @@ public class Main_view
     	@Override
     	public void mouseClicked(MouseEvent e) {
     		meal.setSelected(true);
-				meal.setBackground(new Color(229,233,240));
+				meal.setBackground(new Color(5,13,22));
 				cost.setSelected(false);
 				member.setSelected(false);
 				fund.setSelected(false);
 				report.setSelected(false);
 				setting.setSelected(false);
 				
-				setting.setBackground(new Color(172,174,248));
-				report.setBackground(new Color(172,174,248));
-				cost.setBackground(new Color(172,174,248));
-				fund.setBackground(new Color(172,174,248));
-				member.setBackground(new Color(172,174,248));
+				setting.setBackground(new Color(25,27,31));
+				report.setBackground(new Color(25,27,31));
+				cost.setBackground(new Color(25,27,31));
+				fund.setBackground(new Color(25,27,31));
+				member.setBackground(new Color(25,27,31));
 				
     		
     	}
@@ -268,7 +268,7 @@ public class Main_view
     cost.setSelectedIcon(new ImageIcon(Main_view.class.getResource("/img/cost-selected.png")));
     cost.setBorderPainted(false);
     cost.setFocusPainted(false);
-    cost.setBackground(new Color(172,174,248));
+    cost.setBackground(new Color(25,27,31));
     cost.setIcon(new ImageIcon(Main_view.class.getResource("/img/Cost.png")));
     cost.addMouseListener(new MouseAdapter() {
     	@Override
@@ -287,18 +287,18 @@ public class Main_view
     	public void mouseClicked(MouseEvent e) {
     		cost.setSelected(true);
     		
-    		cost.setBackground(new Color(229,233,240));
+    		cost.setBackground(new Color(5,13,22));
 				meal.setSelected(false);
 				member.setSelected(false);
 				fund.setSelected(false);
 				report.setSelected(false);
 				setting.setSelected(false);
 				
-				setting.setBackground(new Color(172,174,248));
-				report.setBackground(new Color(172,174,248));
-				meal.setBackground(new Color(172,174,248));
-				fund.setBackground(new Color(172,174,248));
-				member.setBackground(new Color(172,174,248));
+				setting.setBackground(new Color(25,27,31));
+				report.setBackground(new Color(25,27,31));
+				meal.setBackground(new Color(25,27,31));
+				fund.setBackground(new Color(25,27,31));
+				member.setBackground(new Color(25,27,31));
     	}
     });
     cost.addActionListener(new ActionListener() {
@@ -326,7 +326,7 @@ public class Main_view
     member.setFocusPainted(false);
     member.setBorderPainted(false);
     member.setForeground(new Color(0, 128, 0));
-    member.setBackground(new Color(172,174,248));
+    member.setBackground(new Color(25,27,31));
     member.setIcon(new ImageIcon(Main_view.class.getResource("/img/member.png")));
     member.addMouseListener(new MouseAdapter() {
     	@Override
@@ -344,18 +344,18 @@ public class Main_view
     	public void mouseClicked(MouseEvent e) {
     		member.setSelected(true);
     	
-    		member.setBackground(new Color(229,233,240));
+    		member.setBackground(new Color(5,13,22));
 				cost.setSelected(false);
 				meal.setSelected(false);
 				fund.setSelected(false);
 				report.setSelected(false);
 				setting.setSelected(false);
 				
-				setting.setBackground(new Color(172,174,248));
-				report.setBackground(new Color(172,174,248));
-				meal.setBackground(new Color(172,174,248));
-				cost.setBackground(new Color(172,174,248));
-				fund.setBackground(new Color(172,174,248));
+				setting.setBackground(new Color(25,27,31));
+				report.setBackground(new Color(25,27,31));
+				meal.setBackground(new Color(25,27,31));
+				cost.setBackground(new Color(25,27,31));
+				fund.setBackground(new Color(25,27,31));
     	}
     });
     member.addActionListener(new ActionListener() {
@@ -375,7 +375,7 @@ public class Main_view
     fund = new JButton("");
     fund.setSelectedIcon(new ImageIcon(Main_view.class.getResource("/img/Meal_52pasdsx.png")));
     fund.setBorderPainted(false);
-    fund.setBackground(new Color(172,174,248));
+    fund.setBackground(new Color(25,27,31));
     fund.setFocusPainted(false);
     fund.setIcon(new ImageIcon(Main_view.class.getResource("/img/fund.png")));
     fund.addMouseListener(new MouseAdapter() {
@@ -395,19 +395,19 @@ public class Main_view
     		fund.setSelected(true);
     		
 
-    		fund.setBackground(new Color(229,233,240));
+    		fund.setBackground(new Color(5,13,22));
 				cost.setSelected(false);
 				member.setSelected(false);
 				meal.setSelected(false);
 				report.setSelected(false);
 				setting.setSelected(false);
 				
-				setting.setBackground(new Color(172,174,248));
-				report.setBackground(new Color(172,174,248));
+				setting.setBackground(new Color(25,27,31));
+				report.setBackground(new Color(25,27,31));
 				
-				meal.setBackground(new Color(172,174,248));
-				cost.setBackground(new Color(172,174,248));
-				member.setBackground(new Color(172,174,248));
+				meal.setBackground(new Color(25,27,31));
+				cost.setBackground(new Color(25,27,31));
+				member.setBackground(new Color(25,27,31));
 				
     	}
     });
@@ -463,18 +463,18 @@ public class Main_view
     	public void mouseClicked(MouseEvent e) {
 setting.setSelected(true);
         	
-    		setting.setBackground(new Color(229,233,240));
+    		setting.setBackground(new Color(5,13,22));
 				cost.setSelected(false);
 				meal.setSelected(false);
 				fund.setSelected(false);
 				report.setSelected(false);
 				member.setSelected(false);
 				
-				meal.setBackground(new Color(172,174,248));
-				cost.setBackground(new Color(172,174,248));
-				fund.setBackground(new Color(172,174,248));
-				report.setBackground(new Color(172,174,248));
-				member.setBackground(new Color(172,174,248));
+				meal.setBackground(new Color(25,27,31));
+				cost.setBackground(new Color(25,27,31));
+				fund.setBackground(new Color(25,27,31));
+				report.setBackground(new Color(25,27,31));
+				member.setBackground(new Color(25,27,31));
     	}
     });
     setting.setBounds(0, 429, 173, 35);
@@ -482,7 +482,7 @@ setting.setSelected(true);
     setting.setForeground(new Color(0, 128, 0));
     setting.setFocusPainted(false);
     setting.setBorderPainted(false);
-    setting.setBackground(new Color(172,174,248));
+    setting.setBackground(new Color(25,27,31));
     
     report = new JButton("");
     report.setSelectedIcon(new ImageIcon(Main_view.class.getResource("/img/asw.png")));
@@ -501,18 +501,18 @@ setting.setSelected(true);
     	public void mouseClicked(MouseEvent e) {
     		report.setSelected(true);
         	
-    		report.setBackground(new Color(229,233,240));
+    		report.setBackground(new Color(5,13,22));
 				cost.setSelected(false);
 				meal.setSelected(false);
 				fund.setSelected(false);
 				setting.setSelected(false);
 				member.setSelected(false);
 				
-				meal.setBackground(new Color(172,174,248));
-				cost.setBackground(new Color(172,174,248));
-				fund.setBackground(new Color(172,174,248));
-				setting.setBackground(new Color(172,174,248));
-				member.setBackground(new Color(172,174,248));
+				meal.setBackground(new Color(25,27,31));
+				cost.setBackground(new Color(25,27,31));
+				fund.setBackground(new Color(25,27,31));
+				setting.setBackground(new Color(25,27,31));
+				member.setBackground(new Color(25,27,31));
     		
     	}
     });
@@ -532,7 +532,7 @@ setting.setSelected(true);
     report.setForeground(new Color(0, 128, 0));
     report.setFocusPainted(false);
     report.setBorderPainted(false);
-    report.setBackground(new Color(172,174,248));
+    report.setBackground(new Color(25,27,31));
     
     main = new JPanel();
     main.setFocusable(false);
@@ -545,13 +545,13 @@ setting.setSelected(true);
     meal_panel = new JPanel();
     main.add(meal_panel, "name_44061690417187");
     meal_panel.setFocusable(false);
-    meal_panel.setBackground(new Color(229,233,240));
+    meal_panel.setBackground(new Color(5,13,22));
     meal_panel.setLayout(null);
     
     dateChooser_meal = new JDateChooser();
     dateChooser_meal.setFont(new Font("Tahoma", Font.PLAIN, 15));
     //dateChooser_meal.getBackground().setBackground(new Color(51, 102, 204));
-    dateChooser_meal.getCalendarButton().setBackground(new Color(211,219,232));
+    dateChooser_meal.getCalendarButton().setBackground(new Color(0, 153, 255));
     dateChooser_meal.setBackground(new Color(51, 102, 204));
     
    
@@ -589,7 +589,7 @@ setting.setSelected(true);
     bf.setBorder(new BevelBorder(BevelBorder.RAISED, null, null, null, null));
     bf.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
     bf.setRolloverIcon(new ImageIcon(Main_view.class.getResource("/img/as.png")));
-    bf.setBackground(new Color(229,233,240));
+    bf.setBackground(new Color(5,13,22));
     bf.setSelectedIcon(new ImageIcon(Main_view.class.getResource("/img/bff.png")));
     bf.setIcon(new ImageIcon(Main_view.class.getResource("/img/bf.png")));
     bf.setBounds(176, 18, 187, 49);
@@ -614,7 +614,7 @@ setting.setSelected(true);
     lun.setRolloverIcon(new ImageIcon(Main_view.class.getResource("/img/lun-r.png")));
     lun.setIcon(new ImageIcon(Main_view.class.getResource("/img/lun.png")));
     lun.setBorder(new BevelBorder(BevelBorder.RAISED, null, null, null, null));
-    lun.setBackground(new Color(229,233,240));
+    lun.setBackground(new Color(5,13,22));
     lun.setBounds(410, 18, 153, 49);
     meal_panel.add(lun);
     
@@ -636,7 +636,7 @@ setting.setSelected(true);
     dnr.setRolloverIcon(new ImageIcon(Main_view.class.getResource("/img/din-r.png")));
     dnr.setSelectedIcon(new ImageIcon(Main_view.class.getResource("/img/din-s.png")));
     dnr.setBorder(new BevelBorder(BevelBorder.RAISED, null, null, null, null));
-    dnr.setBackground(new Color(229,233,240));
+    dnr.setBackground(new Color(5,13,22));
     dnr.setBounds(637, 18, 162, 49);
     meal_panel.add(dnr);
     
@@ -662,34 +662,34 @@ setting.setSelected(true);
     id_m.setColumns(10);
     id_m.setCaretColor(new Color(153, 204, 255));
     id_m.setBorder(null);
-    id_m.setBackground(new Color(229,233,240));
+    id_m.setBackground(new Color(5,13,22));
     id_m.setBounds(232, 72, 180, 35);
     meal_panel.add(id_m);
     
     JSeparator separator_11 = new JSeparator();
-    separator_11.setForeground(new Color(54,54,54));
-    separator_11.setBackground(new Color(54,54,54));
+    separator_11.setForeground(new Color(248, 46, 0));
+    separator_11.setBackground(new Color(248, 46, 0));
     separator_11.setBounds(232, 108, 180, 17);
     meal_panel.add(separator_11);
     
     JLabel lblId = new JLabel("ID :");
-    lblId.setForeground(new Color(54,54,54));
+    lblId.setForeground(new Color(248, 46, 0));
     lblId.setFont(new Font("Tahoma", Font.BOLD, 25));
     lblId.setBounds(175, 64, 49, 43);
     meal_panel.add(lblId);
     
     JScrollPane scrollPane_4 = new JScrollPane();
-    scrollPane_4.setBorder(new LineBorder(Color.LIGHT_GRAY, 2));
-    scrollPane_4.getViewport().setBackground(new Color(229,233,240));
+    scrollPane_4.setBorder(new LineBorder(new Color(0, 102, 255), 2));
+    scrollPane_4.getViewport().setBackground(new Color(5,13,22));
     scrollPane_4.setBounds(34, 122, 885, 331);
     meal_panel.add(scrollPane_4);
     
     meal_tab = new JTable();
-    meal_tab.setGridColor(new Color(229,233,240));
+    meal_tab.setGridColor(new Color(5,13,22));
     meal_tab.setBorder(new LineBorder(new Color(0, 0, 0)));
     meal_tab.setFont(new Font("Segoe UI", Font.PLAIN, 13));
-    meal_tab.setSelectionForeground(new Color(221,222,236));
-    meal_tab.setBackground(Color.LIGHT_GRAY);
+    meal_tab.setSelectionForeground(new Color(204, 0, 255));
+    meal_tab.setBackground(new Color(0, 153, 255));
     meal_tab.setEnabled(false);
     scrollPane_4.setViewportView(meal_tab);
     /*
@@ -700,7 +700,6 @@ setting.setSelected(true);
     
     
     save_meal = new JButton("SAVE");
-    save_meal.setForeground(Color.DARK_GRAY);
     save_meal.addActionListener(new ActionListener() {
     	public void actionPerformed(ActionEvent arg0) {
     		
@@ -747,19 +746,19 @@ setting.setSelected(true);
     save_meal.setFont(new Font("Tahoma", Font.BOLD, 20));
     save_meal.setFocusPainted(false);
     save_meal.setBorderPainted(false);
-    save_meal.setBackground(new Color(215,215,236));
+    save_meal.setBackground(new Color(51, 153, 255));
     save_meal.setBounds(669, 78, 99, 35);
     meal_panel.add(save_meal);
     
     bt = new JTextField();
     bt.setText("0");
     bt.setEditable(false);
-    bt.setForeground(Color.DARK_GRAY);
+    bt.setForeground(new Color(102, 204, 255));
     bt.setFont(new Font("Segoe UI Semibold", Font.PLAIN, 18));
     bt.setColumns(10);
-    bt.setCaretColor(Color.DARK_GRAY);
+    bt.setCaretColor(new Color(153, 204, 255));
     bt.setBorder(null);
-    bt.setBackground(new Color(229,233,240));
+    bt.setBackground(new Color(5,13,22));
     bt.setBounds(365, 18, 35, 35);
     meal_panel.add(bt);
     if(bf.isSelected()){
@@ -771,49 +770,48 @@ setting.setSelected(true);
  	   bt.setEditable(false);
     }
     JSeparator separator_12 = new JSeparator();
-    separator_12.setForeground(new Color(54,54,54));
-    separator_12.setBackground(new Color(54,54,54));
+    separator_12.setForeground(new Color(248, 46, 0));
+    separator_12.setBackground(new Color(248, 46, 0));
     separator_12.setBounds(365, 54, 35, 17);
     meal_panel.add(separator_12);
     
     lt = new JTextField();
     lt.setEditable(false);
     lt.setText("0");
-    lt.setForeground(Color.DARK_GRAY);
+    lt.setForeground(new Color(102, 204, 255));
     lt.setFont(new Font("Segoe UI Semibold", Font.PLAIN, 18));
     lt.setColumns(10);
-    lt.setCaretColor(Color.DARK_GRAY);
+    lt.setCaretColor(new Color(153, 204, 255));
     lt.setBorder(null);
-    lt.setBackground(new Color(229,233,240));
+    lt.setBackground(new Color(5,13,22));
     lt.setBounds(563, 14, 35, 35);
     meal_panel.add(lt);
     
     JSeparator separator_13 = new JSeparator();
-    separator_13.setForeground(new Color(54,54,54));
-    separator_13.setBackground(new Color(54,54,54));
+    separator_13.setForeground(new Color(248, 46, 0));
+    separator_13.setBackground(new Color(248, 46, 0));
     separator_13.setBounds(563, 50, 35, 17);
     meal_panel.add(separator_13);
     
     dt = new JTextField();
     dt.setEditable(false);
     dt.setText("0");
-    dt.setForeground(Color.DARK_GRAY);
+    dt.setForeground(new Color(102, 204, 255));
     dt.setFont(new Font("Segoe UI Semibold", Font.PLAIN, 18));
     dt.setColumns(10);
-    dt.setCaretColor(Color.DARK_GRAY);
+    dt.setCaretColor(new Color(153, 204, 255));
     dt.setBorder(null);
-    dt.setBackground(new Color(229,233,240));
+    dt.setBackground(new Color(5,13,22));
     dt.setBounds(799, 18, 27, 35);
     meal_panel.add(dt);
     
     JSeparator separator_14 = new JSeparator();
-    separator_14.setForeground(new Color(54,54,54));
-    separator_14.setBackground(new Color(54,54,54));
+    separator_14.setForeground(new Color(248, 46, 0));
+    separator_14.setBackground(new Color(248, 46, 0));
     separator_14.setBounds(791, 54, 35, 17);
     meal_panel.add(separator_14);
     
     JButton btnDeleteLastEntry = new JButton("Delete last Entry");
-    btnDeleteLastEntry.setForeground(Color.DARK_GRAY);
     btnDeleteLastEntry.addActionListener(new ActionListener() {
     	public void actionPerformed(ActionEvent e) {
     		
@@ -830,7 +828,7 @@ setting.setSelected(true);
     btnDeleteLastEntry.setFont(new Font("Tahoma", Font.PLAIN, 14));
     btnDeleteLastEntry.setFocusPainted(false);
     btnDeleteLastEntry.setBorderPainted(false);
-    btnDeleteLastEntry.setBackground(new Color(215,215,236));
+    btnDeleteLastEntry.setBackground(new Color(51, 153, 255));
     btnDeleteLastEntry.setBounds(788, 78, 146, 35);
     meal_panel.add(btnDeleteLastEntry);
     
@@ -845,12 +843,12 @@ setting.setSelected(true);
     fund_panel.setForeground(new Color(255, 0, 255));
     main.add(fund_panel, "name_44077097067412");
     fund_panel.setFocusable(false);
-    fund_panel.setBackground(new Color(229,233,240));
+    fund_panel.setBackground(new Color(5,13,22));
     fund_panel.setLayout(null);
     
     JScrollPane scrollPane_2 = new JScrollPane();
-    scrollPane_2.setBorder(new LineBorder(Color.LIGHT_GRAY, 2));
-    scrollPane_2.getViewport().setBackground(new Color(229,233,240));
+    scrollPane_2.setBorder(new LineBorder(new Color(0, 102, 255), 2));
+    scrollPane_2.getViewport().setBackground(new Color(5,13,22));
     scrollPane_2.setBounds(65, 111, 874, 342);
     fund_panel.add(scrollPane_2);
     
@@ -859,7 +857,7 @@ setting.setSelected(true);
     bal_tab.setGridColor(new Color(0, 51, 102));
     bal_tab.setFont(new Font("Arial", Font.PLAIN, 14));
     bal_tab.setForeground(new Color(0, 0, 0));
-    bal_tab.setBackground(new Color(61,56,56));
+    bal_tab.setBackground(new Color(51, 153, 255));
     bal_tab.addMouseListener(new MouseAdapter() {
     	@Override
     	public void mouseClicked(MouseEvent arg0) {
@@ -880,7 +878,7 @@ setting.setSelected(true);
     Balance.load_search_balance(null);
     
     JLabel lblActiveMember_1 = new JLabel("Total Balance :: ");
-    lblActiveMember_1.setForeground(new Color(54,54,54));
+    lblActiveMember_1.setForeground(new Color(255, 51, 0));
     lblActiveMember_1.setFont(new Font("Core Slab M", Font.PLAIN, 20));
     lblActiveMember_1.setBounds(414, 62, 180, 37);
     fund_panel.add(lblActiveMember_1);
@@ -889,7 +887,7 @@ setting.setSelected(true);
     
     
     
-    total_bal.setForeground(new Color(54,54,54));
+    total_bal.setForeground(new Color(255, 51, 0));
     total_bal.setFont(new Font("Core Slab M", Font.PLAIN, 20));
     total_bal.setBounds(601, 63, 180, 37);
     fund_panel.add(total_bal);
@@ -917,7 +915,7 @@ setting.setSelected(true);
     
     
     JLabel lblIdNo_1 = new JLabel("ID No ::");
-    lblIdNo_1.setForeground(new Color(54,54,54));
+    lblIdNo_1.setForeground(new Color(248, 46, 0));
     lblIdNo_1.setFont(new Font("Tahoma", Font.BOLD, 19));
     lblIdNo_1.setBounds(288, 11, 81, 35);
     fund_panel.add(lblIdNo_1);
@@ -943,13 +941,13 @@ setting.setSelected(true);
     id_fund.setColumns(10);
     id_fund.setCaretColor(new Color(153, 204, 255));
     id_fund.setBorder(null);
-    id_fund.setBackground(new Color(229,233,240));
+    id_fund.setBackground(new Color(5,13,22));
     id_fund.setBounds(369, 12, 180, 35);
     fund_panel.add(id_fund);
     
     JSeparator separator_15 = new JSeparator();
-    separator_15.setForeground(new Color(54,54,54));
-    separator_15.setBackground(new Color(54,54,54));
+    separator_15.setForeground(new Color(248, 46, 0));
+    separator_15.setBackground(new Color(248, 46, 0));
     separator_15.setBounds(369, 48, 180, 17);
     fund_panel.add(separator_15);
     
@@ -959,30 +957,29 @@ setting.setSelected(true);
     amnt.setColumns(10);
     amnt.setCaretColor(new Color(153, 204, 255));
     amnt.setBorder(null);
-    amnt.setBackground(new Color(229,233,240));
+    amnt.setBackground(new Color(5,13,22));
     amnt.setBounds(674, 12, 180, 35);
     fund_panel.add(amnt);
     
     JSeparator separator_16 = new JSeparator();
-    separator_16.setForeground(new Color(54,54,54));
-    separator_16.setBackground(new Color(54,54,54));
+    separator_16.setForeground(new Color(248, 46, 0));
+    separator_16.setBackground(new Color(248, 46, 0));
     separator_16.setBounds(684, 48, 170, 17);
     fund_panel.add(separator_16);
     
     JLabel lblAmount = new JLabel("Amount ::");
-    lblAmount.setForeground(new Color(54,54,54));
+    lblAmount.setForeground(new Color(248, 46, 0));
     lblAmount.setFont(new Font("Tahoma", Font.BOLD, 19));
     lblAmount.setBounds(575, 12, 111, 35);
     fund_panel.add(lblAmount);
     
     JLabel lblDate = new JLabel("Date ::");
-    lblDate.setForeground(new Color(54,54,54));
+    lblDate.setForeground(new Color(248, 46, 0));
     lblDate.setFont(new Font("Tahoma", Font.BOLD, 19));
     lblDate.setBounds(70, 23, 70, 35);
     fund_panel.add(lblDate);
     
     btnAddBalance = new JButton("Add Balance");
-    btnAddBalance.setForeground(Color.DARK_GRAY);
     btnAddBalance.addActionListener(new ActionListener() {
     	public void actionPerformed(ActionEvent arg0) {
     		
@@ -1020,7 +1017,7 @@ setting.setSelected(true);
     btnAddBalance.setFont(new Font("Tahoma", Font.BOLD, 15));
     btnAddBalance.setFocusPainted(false);
     btnAddBalance.setBorderPainted(false);
-    btnAddBalance.setBackground(new Color(215,215,236));
+    btnAddBalance.setBackground(new Color(51, 153, 255));
     btnAddBalance.setBounds(784, 58, 155, 35);
     fund_panel.add(btnAddBalance);
     
@@ -1042,33 +1039,33 @@ setting.setSelected(true);
     });
     main.add(cost_pan, "name_44070753051063");
     cost_pan.setFocusable(false);
-    cost_pan.setBackground(new Color(229,233,240));
+    cost_pan.setBackground(new Color(5,13,22));
     cost_pan.setLayout(null);
     
     label = new JLabel("Cost Name ::");
-    label.setForeground(new Color(54,54,54));
+    label.setForeground(new Color(248, 46, 0));
     label.setFont(new Font("Tahoma", Font.BOLD, 19));
     label.setBounds(30, 32, 129, 35);
     cost_pan.add(label);
     
     separator_7 = new JSeparator();
-    separator_7.setForeground(new Color(54,54,54));
-    separator_7.setBackground(new Color(54,54,54));
+    separator_7.setForeground(new Color(248, 46, 0));
+    separator_7.setBackground(new Color(248, 46, 0));
     separator_7.setBounds(169, 68, 180, 17);
     cost_pan.add(separator_7);
     
     c_name = new JTextField();
-    c_name.setForeground(Color.DARK_GRAY);
+    c_name.setForeground(new Color(102, 204, 255));
     c_name.setFont(new Font("Segoe UI Semibold", Font.PLAIN, 14));
     c_name.setColumns(10);
-    c_name.setCaretColor(Color.DARK_GRAY);
+    c_name.setCaretColor(new Color(153, 204, 255));
     c_name.setBorder(null);
-    c_name.setBackground(new Color(229,233,240));
+    c_name.setBackground(new Color(5,13,22));
     c_name.setBounds(169, 32, 180, 35);
     cost_pan.add(c_name);
     
     label_1 = new JLabel("Quantity ::");
-    label_1.setForeground(new Color(54,54,54));
+    label_1.setForeground(new Color(248, 46, 0));
     label_1.setFont(new Font("Tahoma", Font.BOLD, 19));
     label_1.setBounds(373, 32, 111, 35);
     cost_pan.add(label_1);
@@ -1093,29 +1090,29 @@ setting.setSelected(true);
     });
     quan.setText("0");
     
-    quan.setForeground(Color.DARK_GRAY);
+    quan.setForeground(new Color(102, 204, 255));
     quan.setFont(new Font("Segoe UI Semibold", Font.PLAIN, 14));
     quan.setColumns(10);
-    quan.setCaretColor(Color.DARK_GRAY);
+    quan.setCaretColor(new Color(153, 204, 255));
     quan.setBorder(null);
-    quan.setBackground(new Color(229,233,240));
+    quan.setBackground(new Color(5,13,22));
     quan.setBounds(478, 32, 103, 35);
     cost_pan.add(quan);
     
     separator_8 = new JSeparator();
-    separator_8.setForeground(new Color(54,54,54));
-    separator_8.setBackground(new Color(54,54,54));
+    separator_8.setForeground(new Color(248, 46, 0));
+    separator_8.setBackground(new Color(248, 46, 0));
     separator_8.setBounds(478, 68, 103, 17);
     cost_pan.add(separator_8);
     
     label_2 = new JLabel("KG/Liter/Pieces");
-    label_2.setForeground(Color.LIGHT_GRAY);
+    label_2.setForeground(new Color(200, 10, 30));
     label_2.setFont(new Font("Tahoma", Font.BOLD, 16));
     label_2.setBounds(588, 32, 162, 35);
     cost_pan.add(label_2);
     
     label_3 = new JLabel("Price ::");
-    label_3.setForeground(new Color(54,54,54));
+    label_3.setForeground(new Color(248, 46, 0));
     label_3.setFont(new Font("Tahoma", Font.BOLD, 19));
     label_3.setBounds(743, 32, 76, 35);
     cost_pan.add(label_3);
@@ -1140,40 +1137,40 @@ setting.setSelected(true);
     });
     price.setText("0");
 
-    price.setForeground(Color.DARK_GRAY);
+    price.setForeground(new Color(102, 204, 255));
     price.setFont(new Font("Segoe UI Semibold", Font.PLAIN, 14));
     price.setColumns(10);
-    price.setCaretColor(Color.DARK_GRAY);
+    price.setCaretColor(new Color(153, 204, 255));
     price.setBorder(null);
-    price.setBackground(new Color(229,233,240));
+    price.setBackground(new Color(5,13,22));
     price.setBounds(818, 32, 103, 35);
     cost_pan.add(price);
     
     total = new JTextField();
     total.setEditable(false);
-    total.setForeground(Color.DARK_GRAY);
+    total.setForeground(new Color(102, 204, 255));
     total.setFont(new Font("Segoe UI Semibold", Font.PLAIN, 14));
     total.setColumns(10);
-    total.setCaretColor(Color.DARK_GRAY);
+    total.setCaretColor(new Color(153, 204, 255));
     total.setBorder(null);
-    total.setBackground(new Color(229,233,240));
+    total.setBackground(new Color(5,13,22));
     total.setBounds(818, 78, 103, 35);
     cost_pan.add(total);
     
     separator_9 = new JSeparator();
-    separator_9.setForeground(new Color(54,54,54));
-    separator_9.setBackground(new Color(54,54,54));
+    separator_9.setForeground(new Color(248, 46, 0));
+    separator_9.setBackground(new Color(248, 46, 0));
     separator_9.setBounds(818, 114, 103, 17);
     cost_pan.add(separator_9);
     
     separator_10 = new JSeparator();
-    separator_10.setForeground(new Color(54,54,54));
-    separator_10.setBackground(new Color(54,54,54));
+    separator_10.setForeground(new Color(248, 46, 0));
+    separator_10.setBackground(new Color(248, 46, 0));
     separator_10.setBounds(818, 68, 103, 17);
     cost_pan.add(separator_10);
     
     label_4 = new JLabel("Total ::");
-    label_4.setForeground(new Color(54,54,54));
+    label_4.setForeground(new Color(248, 46, 0));
     label_4.setFont(new Font("Tahoma", Font.BOLD, 19));
     label_4.setBounds(743, 78, 76, 35);
     cost_pan.add(label_4);
@@ -1201,8 +1198,8 @@ setting.setSelected(true);
     cost_pan.add(dateChooser);
     
     JScrollPane scrollPane_3 = new JScrollPane();
-    scrollPane_3.setBorder(new LineBorder(Color.LIGHT_GRAY, 2));
-    scrollPane_3.getViewport().setBackground(new Color(229,233,240));
+    scrollPane_3.setBorder(new LineBorder(new Color(0, 102, 255), 2));
+    scrollPane_3.getViewport().setBackground(new Color(5,13,22));
     
     scrollPane_3.addMouseListener(new MouseAdapter() {
     	@Override
@@ -1215,11 +1212,11 @@ setting.setSelected(true);
     cost_pan.add(scrollPane_3);
     
     cost_tab = new JTable();
-    cost_tab.setGridColor(new Color(229,233,240));
+    cost_tab.setGridColor(new Color(5,13,22));
     cost_tab.setBorder(new LineBorder(new Color(0, 0, 0)));
     cost_tab.setFont(new Font("Segoe UI", Font.PLAIN, 13));
-    cost_tab.setSelectionForeground(new Color(221,222,236));
-    cost_tab.setBackground(new Color(215,215,236));
+    cost_tab.setSelectionForeground(new Color(204, 0, 255));
+    cost_tab.setBackground(new Color(0, 153, 255));
     cost_tab.addMouseListener(new MouseAdapter() {
     	@Override
     	public void mouseClicked(MouseEvent arg0) {
@@ -1240,7 +1237,6 @@ int row=cost_tab.getSelectedRow();
     //Cost.load_cost();
     
     JButton button_1 = new JButton("SAVE");
-    button_1.setForeground(Color.DARK_GRAY);
     button_1.addActionListener(new ActionListener() {
     	public void actionPerformed(ActionEvent arg0) {
     		
@@ -1288,7 +1284,7 @@ int row=cost_tab.getSelectedRow();
     button_1.setFont(new Font("Tahoma", Font.BOLD, 20));
     button_1.setFocusPainted(false);
     button_1.setBorderPainted(false);
-    button_1.setBackground(new Color(215,215,236));
+    button_1.setBackground(new Color(51, 153, 255));
     button_1.setBounds(856, 142, 99, 35);
     cost_pan.add(button_1);
     
@@ -1349,7 +1345,7 @@ String a=dafm.format(d);
     cost_pan.add(dlt_lst);
     
     JLabel lblBalance = new JLabel("Balance ::");
-    lblBalance.setForeground(new Color(61,56,56));
+    lblBalance.setForeground(new Color(51, 153, 255));
     lblBalance.setFont(new Font("Tahoma", Font.BOLD, 19));
     lblBalance.setBounds(209, 96, 111, 35);
     cost_pan.add(lblBalance);
@@ -1360,19 +1356,19 @@ String a=dafm.format(d);
     Date d=dateChooser.getDate();
     String q=dafm.format(d);
     now_bal.setText(Cost.now_balance(q).toString());
-    now_bal.setForeground(new Color(61,56,56));
+    now_bal.setForeground(new Color(51, 153, 255));
     now_bal.setFont(new Font("Tahoma", Font.BOLD, 19));
     now_bal.setBounds(321, 96, 111, 35);
     cost_pan.add(now_bal);
     
     JLabel lblTotalCost = new JLabel("Total Cost ::");
-    lblTotalCost.setForeground(new Color(61,56,56));
+    lblTotalCost.setForeground(new Color(51, 153, 255));
     lblTotalCost.setFont(new Font("Tahoma", Font.BOLD, 19));
     lblTotalCost.setBounds(442, 96, 129, 35);
     cost_pan.add(lblTotalCost);
     
     tot_cos = new JLabel("10.0");
-    tot_cos.setForeground(new Color(61,56,56));
+    tot_cos.setForeground(new Color(51, 153, 255));
     tot_cos.setFont(new Font("Tahoma", Font.BOLD, 19));
     tot_cos.setBounds(581, 96, 111, 35);
     cost_pan.add(tot_cos);
@@ -1387,7 +1383,7 @@ String a=dafm.format(d);
     	}
     });
     mem_panel.setFocusable(false);
-    mem_panel.setBackground(new Color(229,233,240));
+    mem_panel.setBackground(new Color(5,13,22));
     main.add(mem_panel, "name_39233053894742");
     mem_panel.setLayout(null);
     
@@ -1407,7 +1403,7 @@ String a=dafm.format(d);
     btnNewButton.setBorderPainted(false);
     btnNewButton.setBorder(new SoftBevelBorder(BevelBorder.LOWERED, null, null, null, null));
     btnNewButton.setFocusPainted(false);
-    btnNewButton.setBackground(new Color(211,219,232));
+    btnNewButton.setBackground(new Color(48, 51, 66));
     btnNewButton.setIcon(new ImageIcon(Main_view.class.getResource("/img/Add-User-Male_48px.png")));
     btnNewButton.setBounds(662, 26, 293, 48);
     mem_panel.add(btnNewButton);
@@ -1424,50 +1420,49 @@ String a=dafm.format(d);
     button.setIcon(new ImageIcon(Main_view.class.getResource("/img/Add-User-Malde_48px.png")));
     button.setFocusPainted(false);
     button.setBorder(new SoftBevelBorder(BevelBorder.LOWERED, null, null, null, null));
-    button.setBackground(new Color(211,219,232));
+    button.setBackground(new Color(48, 51, 66));
     button.setBounds(662, 85, 293, 48);
     mem_panel.add(button);
     
     lblActiveMember = new JLabel("Active Member ::");
-    lblActiveMember.setForeground(Color.DARK_GRAY);
+    lblActiveMember.setForeground(new Color(0, 153, 255));
     lblActiveMember.setFont(new Font("Core Slab M", Font.PLAIN, 20));
-    lblActiveMember.setBounds(662, 169, 171, 37);
+    lblActiveMember.setBounds(662, 169, 208, 37);
     mem_panel.add(lblActiveMember);
     
     lblInactiveMember = new JLabel("InActive Member ::");
-    lblInactiveMember.setForeground(Color.DARK_GRAY);
+    lblInactiveMember.setForeground(new Color(0, 153, 255));
     lblInactiveMember.setFont(new Font("Core Slab M", Font.PLAIN, 20));
-    lblInactiveMember.setBounds(662, 213, 171, 37);
+    lblInactiveMember.setBounds(662, 213, 229, 37);
     mem_panel.add(lblInactiveMember);
     
     lblTotalMember = new JLabel("Total Member ::");
-    lblTotalMember.setForeground(Color.DARK_GRAY);
+    lblTotalMember.setForeground(new Color(0, 153, 255));
     lblTotalMember.setFont(new Font("Core Slab M", Font.PLAIN, 20));
     lblTotalMember.setBounds(662, 261, 171, 37);
     mem_panel.add(lblTotalMember);
     
     JLabel lblAllMembers = new JLabel("All Members");
-    lblAllMembers.setBackground(Color.DARK_GRAY);
-    lblAllMembers.setForeground(Color.DARK_GRAY);
+    lblAllMembers.setForeground(new Color(0, 153, 255));
     lblAllMembers.setFont(new Font("Tahoma", Font.BOLD, 20));
     lblAllMembers.setBounds(278, 0, 208, 37);
     mem_panel.add(lblAllMembers);
     
     JScrollPane scrollPane = new JScrollPane();
     scrollPane.setFont(new Font("Tahoma", Font.PLAIN, 15));
-    scrollPane.setBorder(new LineBorder(Color.LIGHT_GRAY, 2));
+    scrollPane.setBorder(new LineBorder(new Color(51, 153, 255), 2));
     scrollPane.setForeground(Color.PINK);
-    scrollPane.getViewport().setBackground(new Color(229,233,240));
+    scrollPane.getViewport().setBackground(new Color(5,13,22));
     scrollPane.setBackground(Color.CYAN);
     scrollPane.setBounds(28, 36, 624, 235);
     mem_panel.add(scrollPane);
     
     active_tab = new JTable();
-    active_tab.setGridColor(new Color(229,233,240));
+    active_tab.setGridColor(new Color(5,13,22));
     active_tab.setBorder(new LineBorder(new Color(0, 0, 0)));
     active_tab.setFont(new Font("Segoe UI", Font.PLAIN, 13));
-    active_tab.setSelectionForeground(new Color(221,222,236));
-    active_tab.setBackground(new Color(215,215,236));
+    active_tab.setSelectionForeground(new Color(204, 0, 255));
+    active_tab.setBackground(new Color(0, 153, 255));
     active_tab.addMouseListener(new MouseAdapter() {
     	@Override
     	public void mouseClicked(MouseEvent arg0) {
@@ -1498,15 +1493,15 @@ String a=dafm.format(d);
     
     JScrollPane scrollPane_1 = new JScrollPane();
     scrollPane_1.setFont(new Font("Tahoma", Font.PLAIN, 14));
-    scrollPane_1.setBorder(new LineBorder(Color.LIGHT_GRAY, 2));
-    scrollPane_1.getViewport().setBackground(new Color(229,233,240));
+    scrollPane_1.setBorder(new LineBorder(new Color(51, 153, 255), 2));
+    scrollPane_1.getViewport().setBackground(new Color(5,13,22));
     scrollPane_1.setBounds(28, 296, 624, 157);
     mem_panel.add(scrollPane_1);
     
     inactive_tab = new JTable();
-    inactive_tab.setGridColor(new Color(229,233,240));
+    inactive_tab.setGridColor(new Color(5,13,22));
     inactive_tab.setBorder(new LineBorder(new Color(0, 0, 0)));
-    inactive_tab.setBackground(new Color(215,215,236));
+    inactive_tab.setBackground(new Color(0, 153, 255));
     inactive_tab.addMouseListener(new MouseAdapter() {
     	@Override
     	public void mouseClicked(MouseEvent arg0) {
@@ -1533,81 +1528,73 @@ int rrow=inactive_tab.getSelectedRow();
     scrollPane_1.setViewportView(inactive_tab);
     
     lblActiveMembers = new JLabel("Active Members ::\r\n");
-    lblActiveMembers.setForeground(Color.DARK_GRAY);
+    lblActiveMembers.setForeground(new Color(0, 153, 255));
     lblActiveMembers.setFont(new Font("Calibri", Font.BOLD, 15));
     lblActiveMembers.setBounds(28, 11, 208, 37);
     mem_panel.add(lblActiveMembers);
     
     lblIanctiveMembers = new JLabel("Inactive Members ::");
-    lblIanctiveMembers.setForeground(Color.DARK_GRAY);
+    lblIanctiveMembers.setForeground(new Color(0, 153, 255));
     lblIanctiveMembers.setFont(new Font("Calibri", Font.BOLD, 15));
     lblIanctiveMembers.setBounds(28, 263, 208, 37);
     mem_panel.add(lblIanctiveMembers);
     
     active = new JLabel("");
     active.setText(Mem_info.active_mem());
-    active.setForeground(new Color(215,215,236));
+    active.setForeground(new Color(0, 153, 255));
     active.setFont(new Font("Core Slab M", Font.PLAIN, 20));
     active.setBounds(851, 169, 94, 37);
     mem_panel.add(active);
     
     inactive = new JLabel("");
     inactive.setText(Mem_info.inactive_mem());
-    inactive.setForeground(new Color(215,215,236));
+    inactive.setForeground(new Color(0, 153, 255));
     inactive.setFont(new Font("Core Slab M", Font.PLAIN, 20));
     inactive.setBounds(881, 213, 74, 37);
     mem_panel.add(inactive);
     
     tot = new JLabel("");
     tot.setText(Mem_info.tot_mem());
-    tot.setForeground(new Color(215,215,236));
+    tot.setForeground(new Color(0, 153, 255));
     tot.setFont(new Font("Core Slab M", Font.PLAIN, 20));
     tot.setBounds(835, 261, 94, 37);
     mem_panel.add(tot);
     Mem_info.load_inactive();
     
     report_panel = new JPanel();
-    report_panel.setBackground(new Color(229,233,240));
+    report_panel.setBackground(new Color(5,13,22));
     main.add(report_panel, "name_60352729605588");
     report_panel.setLayout(null);
     
     JLabel lblPerMealPrice = new JLabel("Per Meal Price ::");
-    lblPerMealPrice.setForeground(new Color(54,54,54));
+    lblPerMealPrice.setForeground(new Color(248, 46, 0));
     lblPerMealPrice.setFont(new Font("Tahoma", Font.BOLD, 19));
     lblPerMealPrice.setBounds(279, 39, 155, 35);
     report_panel.add(lblPerMealPrice);
     
     per_meal = new JTextField();
-    per_meal.setForeground(Color.DARK_GRAY);
+    per_meal.setForeground(new Color(102, 204, 255));
     per_meal.setFont(new Font("Segoe UI Semibold", Font.PLAIN, 14));
     per_meal.setColumns(10);
-    per_meal.setCaretColor(Color.DARK_GRAY);
+    per_meal.setCaretColor(new Color(153, 204, 255));
     per_meal.setBorder(null);
-    per_meal.setBackground(new Color(229,233,240));
+    per_meal.setBackground(new Color(5,13,22));
     per_meal.setBounds(444, 39, 83, 35);
     report_panel.add(per_meal);
     
     JSeparator separator_5 = new JSeparator();
-    separator_5.setForeground(new Color(54,54,54));
-    separator_5.setBackground(new Color(54,54,54));
+    separator_5.setForeground(new Color(248, 46, 0));
+    separator_5.setBackground(new Color(248, 46, 0));
     separator_5.setBounds(444, 75, 83, 17);
     report_panel.add(separator_5);
     
     JLabel label_6 = new JLabel("Date ::");
-    label_6.setForeground(new Color(54,54,54));
+    label_6.setForeground(new Color(248, 46, 0));
     label_6.setFont(new Font("Tahoma", Font.BOLD, 19));
     label_6.setBounds(32, 51, 70, 35);
     report_panel.add(label_6);
     
     dateChooser_rep = new JDateChooser();
-    dateChooser_rep.setBorder(new LineBorder(Color.LIGHT_GRAY));
-    dateChooser_rep.setBackground(Color.LIGHT_GRAY);
-    dateChooser_rep.getCalendarButton().addActionListener(new ActionListener() {
-    	public void actionPerformed(ActionEvent arg0) {
-    	}
-    });
-    dateChooser_rep.getCalendarButton().setBackground(new Color(211,219,232));
-    dateChooser_rep.getCalendarButton().setForeground(Color.LIGHT_GRAY);
     Date date_rep=new Date();
     dateChooser_rep.setDate(date_rep);
     
@@ -1631,39 +1618,39 @@ int rrow=inactive_tab.getSelectedRow();
     report_panel.add(dateChooser_rep);
     
     tot_meal = new JTextField();
-    tot_meal.setForeground(Color.DARK_GRAY);
+    tot_meal.setForeground(new Color(102, 204, 255));
     tot_meal.setFont(new Font("Segoe UI Semibold", Font.PLAIN, 14));
     tot_meal.setColumns(10);
-    tot_meal.setCaretColor(Color.DARK_GRAY);
+    tot_meal.setCaretColor(new Color(153, 204, 255));
     tot_meal.setBorder(null);
-    tot_meal.setBackground(new Color(229,233,240));
+    tot_meal.setBackground(new Color(5,13,22));
     tot_meal.setBounds(702, 39, 83, 35);
     report_panel.add(tot_meal);
     
     JSeparator separator_17 = new JSeparator();
-    separator_17.setForeground(new Color(54,54,54));
-    separator_17.setBackground(new Color(54,54,54));
+    separator_17.setForeground(new Color(248, 46, 0));
+    separator_17.setBackground(new Color(248, 46, 0));
     separator_17.setBounds(702, 75, 83, 17);
     report_panel.add(separator_17);
     
     JLabel lblTotalMeal = new JLabel("Total Meal ::");
-    lblTotalMeal.setForeground(new Color(54,54,54));
+    lblTotalMeal.setForeground(new Color(248, 46, 0));
     lblTotalMeal.setFont(new Font("Tahoma", Font.BOLD, 19));
     lblTotalMeal.setBounds(537, 39, 155, 35);
     report_panel.add(lblTotalMeal);
     
     JScrollPane scrollPane_5 = new JScrollPane();
-    scrollPane_5.setBorder(new LineBorder(Color.LIGHT_GRAY, 2));
-    scrollPane_5.getViewport().setBackground(new Color(229,233,240));
+    scrollPane_5.setBorder(new LineBorder(new Color(0, 102, 255), 2));
+    scrollPane_5.getViewport().setBackground(new Color(5,13,22));
     scrollPane_5.setBounds(77, 146, 750, 307);
     report_panel.add(scrollPane_5);
     
     rep_tab = new JTable();
-    rep_tab.setGridColor(new Color(229,233,240));
+    rep_tab.setGridColor(new Color(5,13,22));
     rep_tab.setBorder(new LineBorder(new Color(0, 0, 0)));
     rep_tab.setFont(new Font("Segoe UI", Font.PLAIN, 13));
-    rep_tab.setSelectionForeground(new Color(221,222,236));
-    rep_tab.setBackground(new Color(215,215,236));
+    rep_tab.setSelectionForeground(new Color(204, 0, 255));
+    rep_tab.setBackground(new Color(0, 153, 255));
     rep_tab.addMouseListener(new MouseAdapter() {
     	@Override
     	public void mouseClicked(MouseEvent arg0) {
@@ -1683,19 +1670,18 @@ int rrow=rep_tab.getSelectedRow();
     scrollPane_5.setViewportView(rep_tab);
     
     JLabel lblClickOnA = new JLabel("Click on a member to find full report");
-    lblClickOnA.setForeground(new Color(54,54,54));
+    lblClickOnA.setForeground(new Color(248, 46, 0));
     lblClickOnA.setFont(new Font("Tahoma", Font.BOLD, 14));
     lblClickOnA.setBounds(77, 114, 260, 35);
     report_panel.add(lblClickOnA);
     Reports.load_active();
     
     setting_panel = new JPanel();
-    setting_panel.setBackground(new Color(229,233,240));
+    setting_panel.setBackground(new Color(5,13,22));
     main.add(setting_panel, "name_65445993321208");
     setting_panel.setLayout(null);
     
     JButton btnNewButton_2 = new JButton("");
-    btnNewButton_2.setForeground(new Color(184, 134, 11));
     
     JFileChooser jfc=new JFileChooser();
     
@@ -1729,14 +1715,13 @@ int rrow=rep_tab.getSelectedRow();
     });
     btnNewButton_2.setIcon(new ImageIcon(Main_view.class.getResource("/img/Data-Backup_80px.png")));
     btnNewButton_2.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
-    btnNewButton_2.setBackground(new Color(211,219,232));
+    btnNewButton_2.setBackground(new Color(10, 20, 51));
     btnNewButton_2.setBounds(88, 78, 205, 147);
     setting_panel.add(btnNewButton_2);
     
     JFileChooser jc=new JFileChooser();
     
     JButton button_2 = new JButton("");
-    button_2.setForeground(new Color(184, 134, 11));
     button_2.addActionListener(new ActionListener() {
     	public void actionPerformed(ActionEvent e) {
     		
@@ -1772,12 +1757,11 @@ int rrow=rep_tab.getSelectedRow();
     });
     button_2.setIcon(new ImageIcon(Main_view.class.getResource("/img/Data-Backuxp_80px.png")));
     button_2.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
-    button_2.setBackground(new Color(211,219,232));
+    button_2.setBackground(new Color(10, 20, 51));
     button_2.setBounds(397, 78, 205, 147);
     setting_panel.add(button_2);
     
     JButton button_3 = new JButton("");
-    button_3.setForeground(new Color(211,219,232));
     button_3.addActionListener(new ActionListener() {
     	public void actionPerformed(ActionEvent e) {
     		Support obj=new Support(null);
@@ -1786,15 +1770,15 @@ int rrow=rep_tab.getSelectedRow();
     	}
     });
     button_3.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
-    button_3.setBackground(new Color(211,219,232));
+    button_3.setBackground(new Color(10, 20, 51));
     button_3.setIcon(new ImageIcon(Main_view.class.getResource("/img/Customer-Support_70px.png")));
     button_3.setBounds(707, 78, 205, 147);
     setting_panel.add(button_3);
     
     JButton btnAbout = new JButton("ABOUT");
     btnAbout.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
-    btnAbout.setBackground(new Color(211,219,232));
-    btnAbout.setForeground(Color.DARK_GRAY);
+    btnAbout.setBackground(new Color(10, 20, 51));
+    btnAbout.setForeground(new Color(0, 153, 255));
     btnAbout.addActionListener(new ActionListener() {
     	public void actionPerformed(ActionEvent arg0) {
     		About a=new About();
@@ -1808,7 +1792,7 @@ int rrow=rep_tab.getSelectedRow();
     
     btnResetAndDelete = new JButton("Reset and Delete all in Database");
     btnResetAndDelete.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
-    btnResetAndDelete.setBackground(new Color(211,219,232));
+    btnResetAndDelete.setBackground(new Color(10, 20, 51));
     btnResetAndDelete.setForeground(new Color(153, 0, 0));
     btnResetAndDelete.addActionListener(new ActionListener() {
     	public void actionPerformed(ActionEvent arg0) {
@@ -1831,8 +1815,8 @@ int rrow=rep_tab.getSelectedRow();
     	
     	alw_log = new JCheckBox("Allow Login Option");
         alw_log.setFont(new Font("Tahoma", Font.BOLD, 17));
-        alw_log.setForeground(new Color(54,54,54));
-        alw_log.setBackground(new Color(211,219,232));
+        alw_log.setForeground(new Color(255, 51, 0));
+        alw_log.setBackground(new Color(5, 13, 22));
         
         String c=Allow_log.chek_log();
         if(c.equals("active")){
@@ -1858,26 +1842,26 @@ int rrow=rep_tab.getSelectedRow();
     }
     
     reg_mem = new JPanel();
-    reg_mem.setBackground(new Color(229,233,240));
+    reg_mem.setBackground(new Color(20,21,32));
     main.add(reg_mem, "name_6051106241113");
     reg_mem.setLayout(null);
     
     JLabel lblNewLabel = new JLabel("New Member Registration__");
-    lblNewLabel.setForeground(Color.DARK_GRAY);
+    lblNewLabel.setForeground(new Color(0, 153, 255));
     lblNewLabel.setFont(new Font("Oswald", Font.PLAIN, 24));
     lblNewLabel.setBounds(115, 2, 272, 49);
     reg_mem.add(lblNewLabel);
     
     photo_label = new JLabel("");
-    photo_label.setBorder(new MatteBorder(1, 1, 1, 1, (Color) new Color(215,215,236)));
+    photo_label.setBorder(new MatteBorder(1, 1, 1, 1, (Color) new Color(0, 153, 255)));
     photo_label.setForeground(Color.MAGENTA);
     photo_label.setBackground(new Color(153, 204, 255));
     photo_label.setBounds(93, 83, 294, 259);
     reg_mem.add(photo_label);
     
     JButton btnNewButton_1 = new JButton("Add Photo");
-    btnNewButton_1.setForeground(Color.DARK_GRAY);
-    btnNewButton_1.setBackground(new Color(203,211,225));
+    btnNewButton_1.setForeground(new Color(204, 204, 255));
+    btnNewButton_1.setBackground(new Color(48, 51,65));
     btnNewButton_1.setFocusPainted(false);
     JFileChooser fc = new JFileChooser();
     btnNewButton_1.addActionListener(new ActionListener() {
@@ -1912,9 +1896,9 @@ int rrow=rep_tab.getSelectedRow();
     reg_mem.add(btnNewButton_1);
     
     path_t = new JTextField();
-    path_t.setForeground(Color.DARK_GRAY);
+    path_t.setForeground(new Color(204, 204, 255));
     path_t.setBorder(new MatteBorder(1, 1, 1, 1, (Color) new Color(0, 0, 0)));
-    path_t.setBackground(new Color(203,211,225));
+    path_t.setBackground(new Color(48, 51,70));
     path_t.setCaretColor(new Color(153, 204, 255));
     path_t.setDisabledTextColor(Color.MAGENTA);
     path_t.setEditable(false);
@@ -1924,42 +1908,42 @@ int rrow=rep_tab.getSelectedRow();
     
     JSeparator separator = new JSeparator();
     separator.setBackground(new Color(0, 0, 51));
-    separator.setForeground(new Color(215,215,236));
+    separator.setForeground(new Color(0, 153, 255));
     separator.setBounds(115, 49, 272, 12);
     reg_mem.add(separator);
     
     JLabel lblName = new JLabel("Name :");
-    lblName.setForeground(new Color(61,56,56));
+    lblName.setForeground(new Color(51, 153, 255));
     lblName.setFont(new Font("Code Pro", Font.PLAIN, 17));
     lblName.setBounds(490, 83, 55, 23);
     reg_mem.add(lblName);
     
     JLabel lblRoll = new JLabel("Roll No :");
-    lblRoll.setForeground(new Color(61,56,56));
+    lblRoll.setForeground(new Color(51, 153, 255));
     lblRoll.setFont(new Font("Code Pro", Font.PLAIN, 17));
     lblRoll.setBounds(490, 130, 78, 23);
     reg_mem.add(lblRoll);
     
     lblRegNo = new JLabel("REG No :");
-    lblRegNo.setForeground(new Color(61,56,56));
+    lblRegNo.setForeground(new Color(51, 153, 255));
     lblRegNo.setFont(new Font("Code Pro", Font.PLAIN, 17));
     lblRegNo.setBounds(730, 130, 78, 23);
     reg_mem.add(lblRegNo);
     
     lblAdress = new JLabel("Adress :");
-    lblAdress.setForeground(new Color(61,56,56));
+    lblAdress.setForeground(new Color(51, 153, 255));
     lblAdress.setFont(new Font("Code Pro", Font.PLAIN, 17));
     lblAdress.setBounds(490, 189, 91, 23);
     reg_mem.add(lblAdress);
     
     lblPhoneNo = new JLabel("Phone No :");
-    lblPhoneNo.setForeground(new Color(61,56,56));
+    lblPhoneNo.setForeground(new Color(51, 153, 255));
     lblPhoneNo.setFont(new Font("Code Pro", Font.PLAIN, 17));
     lblPhoneNo.setBounds(490, 312, 102, 23);
     reg_mem.add(lblPhoneNo);
     
     lblIdNo = new JLabel("ID No :");
-    lblIdNo.setForeground(new Color(61,56,56));
+    lblIdNo.setForeground(new Color(51, 153, 255));
     lblIdNo.setFont(new Font("Code Pro", Font.PLAIN, 17));
     lblIdNo.setBounds(730, 83, 55, 23);
     reg_mem.add(lblIdNo);
@@ -1967,31 +1951,31 @@ int rrow=rep_tab.getSelectedRow();
     name_t = new JTextField();
     name_t.setFont(new Font("Tahoma", Font.PLAIN, 17));
     name_t.setBorder(null);
-    name_t.setCaretColor(Color.DARK_GRAY);
-    name_t.setBackground(new Color(229,233,240));
-    name_t.setForeground(Color.DARK_GRAY);
+    name_t.setCaretColor(new Color(102, 204, 255));
+    name_t.setBackground(new Color(20,21,32));
+    name_t.setForeground(new Color(153, 204, 255));
     name_t.setBounds(551, 83, 169, 20);
     reg_mem.add(name_t);
     name_t.setColumns(10);
     
     separator_1 = new JSeparator();
-    separator_1.setForeground(new Color(215,215,236));
+    separator_1.setForeground(new Color(0, 153, 255));
     separator_1.setBackground(new Color(0, 0, 51));
     separator_1.setBounds(551, 103, 169, 12);
     reg_mem.add(separator_1);
     
     roll_t = new JTextField();
     roll_t.setFont(new Font("Tahoma", Font.PLAIN, 17));
-    roll_t.setForeground(Color.DARK_GRAY);
+    roll_t.setForeground(new Color(153, 204, 255));
     roll_t.setColumns(10);
-    roll_t.setCaretColor(Color.DARK_GRAY);
+    roll_t.setCaretColor(new Color(102, 204, 255));
     roll_t.setBorder(null);
-    roll_t.setBackground(new Color(229,233,240));
+    roll_t.setBackground(new Color(20,21,32));
     roll_t.setBounds(572, 130, 152, 20);
     reg_mem.add(roll_t);
     
     separator_2 = new JSeparator();
-    separator_2.setForeground(new Color(215,215,236));
+    separator_2.setForeground(new Color(0, 153, 255));
     separator_2.setBackground(new Color(0, 0, 51));
     separator_2.setBounds(572, 150, 152, 12);
     reg_mem.add(separator_2);
@@ -2013,48 +1997,48 @@ int rrow=rep_tab.getSelectedRow();
     	}
     });
     id_t.setFont(new Font("Tahoma", Font.PLAIN, 17));
-    id_t.setForeground(Color.DARK_GRAY);
+    id_t.setForeground(new Color(153, 204, 255));
     id_t.setColumns(10);
-    id_t.setCaretColor(Color.DARK_GRAY);
+    id_t.setCaretColor(new Color(102, 204, 255));
     id_t.setBorder(null);
-    id_t.setBackground(new Color(229,233,240));
+    id_t.setBackground(new Color(20,21,32));
     id_t.setBounds(786, 83, 106, 20);
     reg_mem.add(id_t);
     
     separator_3 = new JSeparator();
-    separator_3.setForeground(new Color(215,215,236));
+    separator_3.setForeground(new Color(0, 153, 255));
     separator_3.setBackground(new Color(0, 0, 51));
     separator_3.setBounds(786, 103, 106, 12);
     reg_mem.add(separator_3);
     
     reg_t = new JTextField();
     reg_t.setFont(new Font("Tahoma", Font.PLAIN, 17));
-    reg_t.setForeground(Color.DARK_GRAY);
+    reg_t.setForeground(new Color(153, 204, 255));
     reg_t.setColumns(10);
-    reg_t.setCaretColor(Color.DARK_GRAY);
+    reg_t.setCaretColor(new Color(102, 204, 255));
     reg_t.setBorder(null);
-    reg_t.setBackground(new Color(229,233,240));
+    reg_t.setBackground(new Color(20,21,32));
     reg_t.setBounds(796, 130, 106, 20);
     reg_mem.add(reg_t);
     
     separator_4 = new JSeparator();
-    separator_4.setForeground(new Color(215,215,236));
+    separator_4.setForeground(new Color(0, 153, 255));
     separator_4.setBackground(new Color(0, 0, 51));
     separator_4.setBounds(796, 150, 106, 12);
     reg_mem.add(separator_4);
     
     phone_t = new JTextField();
     phone_t.setFont(new Font("Tahoma", Font.PLAIN, 17));
-    phone_t.setForeground(Color.DARK_GRAY);
+    phone_t.setForeground(new Color(153, 204, 255));
     phone_t.setColumns(10);
-    phone_t.setCaretColor(Color.DARK_GRAY);
+    phone_t.setCaretColor(new Color(102, 204, 255));
     phone_t.setBorder(null);
-    phone_t.setBackground(new Color(229,233,240));
+    phone_t.setBackground(new Color(20,21,32));
     phone_t.setBounds(587, 312, 169, 20);
     reg_mem.add(phone_t);
     
     separator_6 = new JSeparator();
-    separator_6.setForeground(new Color(215,215,236));
+    separator_6.setForeground(new Color(0, 153, 255));
     separator_6.setBackground(new Color(0, 0, 51));
     separator_6.setBounds(587, 332, 169, 12);
     reg_mem.add(separator_6);
@@ -2063,8 +2047,8 @@ int rrow=rep_tab.getSelectedRow();
     adress_t.setFont(new Font("Tahoma", Font.PLAIN, 17));
     adress_t.setForeground(new Color(102, 204, 255));
     adress_t.setBorder(null);
-    adress_t.setCaretColor(Color.DARK_GRAY);
-    adress_t.setBackground(new Color(203,211,225));
+    adress_t.setCaretColor(new Color(102, 204, 255));
+    adress_t.setBackground(new Color(48, 51,70));
     adress_t.setBounds(572, 190, 288, 111);
     reg_mem.add(adress_t);
     
@@ -2138,7 +2122,7 @@ int rrow=rep_tab.getSelectedRow();
     });
     mem_sav.setFocusPainted(false);
     mem_sav.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
-    mem_sav.setBackground(new Color(203,211,225));
+    mem_sav.setBackground(new Color(51, 153, 255));
     mem_sav.setBorderPainted(false);
     mem_sav.setFont(new Font("Tahoma", Font.BOLD, 20));
     mem_sav.setBounds(803, 351, 99, 56);
@@ -2160,7 +2144,7 @@ int rrow=rep_tab.getSelectedRow();
     lblBack.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
     lblBack.setFont(new Font("Tahoma", Font.PLAIN, 18));
     lblBack.setBackground(new Color(51, 204, 102));
-    lblBack.setForeground(new Color(61,56,56));
+    lblBack.setForeground(new Color(51, 153, 255));
     lblBack.setIcon(new ImageIcon(Main_view.class.getResource("/img/Back_48px.png")));
     lblBack.setBounds(1, 11, 95, 49);
     reg_mem.add(lblBack);

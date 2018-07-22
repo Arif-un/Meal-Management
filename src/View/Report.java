@@ -68,7 +68,7 @@ public class Report extends JDialog {
 		setTitle("Reports");
 		setBounds(100, 100, 799, 455);
 		getContentPane().setLayout(new BorderLayout());
-		contentPanel.setBackground(new Color(221,222,232));
+		contentPanel.setBackground(new Color(23, 25, 35));
 		contentPanel.setBorder(new EmptyBorder(5, 5, 5, 5));
 		getContentPane().add(contentPanel, BorderLayout.CENTER);
 		contentPanel.setLayout(null);
@@ -82,19 +82,19 @@ public class Report extends JDialog {
 		contentPanel.add(DC_2);
 		
 		JLabel lblFrom = new JLabel("From _");
-		lblFrom.setForeground(Color.DARK_GRAY);
+		lblFrom.setForeground(new Color(248, 46, 0));
 		lblFrom.setFont(new Font("Tahoma", Font.BOLD, 19));
 		lblFrom.setBounds(29, 0, 129, 35);
 		contentPanel.add(lblFrom);
 		
 		JLabel lblto = new JLabel("_to");
-		lblto.setForeground(Color.DARK_GRAY);
+		lblto.setForeground(new Color(248, 46, 0));
 		lblto.setFont(new Font("Tahoma", Font.BOLD, 19));
 		lblto.setBounds(205, 0, 129, 35);
 		contentPanel.add(lblto);
 		
 		JLabel label_2 = new JLabel("---");
-		label_2.setForeground(Color.DARK_GRAY);
+		label_2.setForeground(new Color(248, 46, 0));
 		label_2.setFont(new Font("Tahoma", Font.BOLD, 19));
 		label_2.setBounds(168, 33, 46, 35);
 		contentPanel.add(label_2);
@@ -143,31 +143,31 @@ public class Report extends JDialog {
 			}
 		});
 		
-		button.setBackground(new Color(204, 204, 204));
+		button.setBackground(new Color(48, 51, 67));
 		button.setIcon(new ImageIcon(Report.class.getResource("/img/fsdf.png")));
 		button.setBounds(348, 23, 89, 45);
 		contentPanel.add(button);
 		
 		JLabel lblName = new JLabel("Name ::");
-		lblName.setForeground(Color.DARK_GRAY);
+		lblName.setForeground(new Color(248, 46, 0));
 		lblName.setFont(new Font("Tahoma", Font.BOLD, 19));
 		lblName.setBounds(493, 6, 82, 23);
 		contentPanel.add(lblName);
 		
 		JLabel lblId = new JLabel("ID ::");
-		lblId.setForeground(Color.DARK_GRAY);
+		lblId.setForeground(new Color(248, 46, 0));
 		lblId.setFont(new Font("Tahoma", Font.BOLD, 19));
 		lblId.setBounds(520, 39, 48, 23);
 		contentPanel.add(lblId);
 		
 		name_r = new JLabel("");
-		name_r.setForeground(Color.DARK_GRAY);
+		name_r.setForeground(new Color(248, 46, 0));
 		name_r.setFont(new Font("Tahoma", Font.BOLD, 19));
 		name_r.setBounds(578, 6, 89, 23);
 		contentPanel.add(name_r);
 		
 		id_r = new JLabel("");
-		id_r.setForeground(Color.DARK_GRAY);
+		id_r.setForeground(new Color(248, 46, 0));
 		id_r.setFont(new Font("Tahoma", Font.BOLD, 19));
 		id_r.setBounds(577, 39, 73, 23);
 		contentPanel.add(id_r);
@@ -202,85 +202,85 @@ public class Report extends JDialog {
 		scrollPane.setViewportView(rep_tab);
 		
 		JLabel lblName_1 = new JLabel("Breakfast :");
-		lblName_1.setForeground(Color.DARK_GRAY);
+		lblName_1.setForeground(new Color(248, 46, 0));
 		lblName_1.setFont(new Font("Tahoma", Font.BOLD, 16));
 		lblName_1.setBounds(631, 94, 95, 23);
 		contentPanel.add(lblName_1);
 		
 		JLabel lblLunch = new JLabel("Lunch :");
-		lblLunch.setForeground(Color.DARK_GRAY);
+		lblLunch.setForeground(new Color(248, 46, 0));
 		lblLunch.setFont(new Font("Tahoma", Font.BOLD, 16));
 		lblLunch.setBounds(634, 128, 73, 23);
 		contentPanel.add(lblLunch);
 		
 		JLabel lblDinner = new JLabel("Dinner :");
-		lblDinner.setForeground(Color.DARK_GRAY);
+		lblDinner.setForeground(new Color(248, 46, 0));
 		lblDinner.setFont(new Font("Tahoma", Font.BOLD, 16));
 		lblDinner.setBounds(634, 162, 73, 23);
 		contentPanel.add(lblDinner);
 		
 		tot_bf = new JLabel("");
-		tot_bf.setForeground(Color.DARK_GRAY);
+		tot_bf.setForeground(new Color(248, 46, 0));
 		tot_bf.setFont(new Font("Tahoma", Font.BOLD, 16));
 		tot_bf.setBounds(727, 94, 46, 23);
 		contentPanel.add(tot_bf);
 		
 		tot_lun = new JLabel("");
-		tot_lun.setForeground(Color.DARK_GRAY);
+		tot_lun.setForeground(new Color(248, 46, 0));
 		tot_lun.setFont(new Font("Tahoma", Font.BOLD, 16));
 		tot_lun.setBounds(697, 128, 46, 23);
 		contentPanel.add(tot_lun);
 		
 		tot_din = new JLabel("");
-		tot_din.setForeground(Color.DARK_GRAY);
+		tot_din.setForeground(new Color(248, 46, 0));
 		tot_din.setFont(new Font("Tahoma", Font.BOLD, 16));
 		tot_din.setBounds(707, 162, 46, 23);
 		contentPanel.add(tot_din);
 		
 		JLabel lblTotal = new JLabel("Total :");
-		lblTotal.setForeground(Color.DARK_GRAY);
+		lblTotal.setForeground(new Color(248, 46, 0));
 		lblTotal.setFont(new Font("Tahoma", Font.BOLD, 16));
 		lblTotal.setBounds(634, 201, 73, 23);
 		contentPanel.add(lblTotal);
 		
 		tot = new JLabel("");
-		tot.setForeground(Color.DARK_GRAY);
+		tot.setForeground(new Color(248, 46, 0));
 		tot.setFont(new Font("Tahoma", Font.BOLD, 16));
 		tot.setBounds(697, 201, 46, 23);
 		contentPanel.add(tot);
 		
 		JLabel lblAmount = new JLabel("Amount :");
-		lblAmount.setForeground(Color.DARK_GRAY);
+		lblAmount.setForeground(new Color(248, 46, 0));
 		lblAmount.setFont(new Font("Tahoma", Font.BOLD, 16));
 		lblAmount.setBounds(631, 246, 76, 23);
 		contentPanel.add(lblAmount);
 		
 		amnt = new JLabel("");
-		amnt.setForeground(Color.DARK_GRAY);
+		amnt.setForeground(new Color(248, 46, 0));
 		amnt.setFont(new Font("Tahoma", Font.BOLD, 16));
 		amnt.setBounds(707, 246, 66, 23);
 		contentPanel.add(amnt);
 		
 		JLabel lblPaid = new JLabel("Paid :");
-		lblPaid.setForeground(Color.DARK_GRAY);
+		lblPaid.setForeground(new Color(248, 46, 0));
 		lblPaid.setFont(new Font("Tahoma", Font.BOLD, 16));
 		lblPaid.setBounds(634, 281, 53, 23);
 		contentPanel.add(lblPaid);
 		
 		pd = new JLabel("");
-		pd.setForeground(Color.DARK_GRAY);
+		pd.setForeground(new Color(248, 46, 0));
 		pd.setFont(new Font("Tahoma", Font.BOLD, 16));
 		pd.setBounds(687, 281, 89, 23);
 		contentPanel.add(pd);
 		
 		du = new JLabel("");
-		du.setForeground(Color.DARK_GRAY);
+		du.setForeground(new Color(248, 46, 0));
 		du.setFont(new Font("Tahoma", Font.BOLD, 16));
 		du.setBounds(674, 318, 89, 23);
 		contentPanel.add(du);
 		
 		JLabel lblDue = new JLabel("Due :");
-		lblDue.setForeground(Color.DARK_GRAY);
+		lblDue.setForeground(new Color(248, 46, 0));
 		lblDue.setFont(new Font("Tahoma", Font.BOLD, 16));
 		lblDue.setBounds(631, 318, 46, 23);
 		contentPanel.add(lblDue);

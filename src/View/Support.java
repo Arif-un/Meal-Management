@@ -48,7 +48,7 @@ public class Support extends JFrame {
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		setBounds(100, 100, 669, 406);
 		contentPane = new JPanel();
-		contentPane.setBackground(new Color(221,222,232));
+		contentPane.setBackground(new Color(10, 13, 33));
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);

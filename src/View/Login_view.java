@@ -8,8 +8,6 @@ import javax.swing.border.LineBorder;
 import Model.Login;
 public class Login_view
 {
- /*While BTV Shooting in BSPI campus ..... and
- this comment I create a comment for memorable moment*/
 	public JFrame f = new JFrame();
   Point point = new Point();
   boolean resizing = false;
@@ -20,7 +18,7 @@ public class Login_view
   public void buildGUI()
   {
     
-    f.getContentPane().setBackground(new Color(221,222,233));
+    f.getContentPane().setBackground(new Color(10,13,33));
     f.setUndecorated(true);
     f.setSize(627,396);
     f.setLocationRelativeTo(null);
@@ -50,14 +48,14 @@ public class Login_view
     
     JLabel lblLoginPanel = new JLabel("Login Panel");
     lblLoginPanel.setForeground(new Color(255, 27, 27));
-    lblLoginPanel.setFont(new Font("Dialog", Font.BOLD, 24));
-    lblLoginPanel.setBounds(435, 66, 162, 40);
+    lblLoginPanel.setFont(new Font("Bauhaus 93", Font.PLAIN, 32));
+    lblLoginPanel.setBounds(421, 55, 162, 40);
     f.getContentPane().add(lblLoginPanel);
     
     JSeparator separator = new JSeparator();
     separator.setForeground(new Color(10,13,13));
     separator.setBackground(new Color(0, 0, 0));
-    separator.setBounds(428, 105, 163, 15);
+    separator.setBounds(420, 106, 163, 15);
     f.getContentPane().add(separator);
     
     JLabel label_1 = new JLabel("");
@@ -80,7 +78,7 @@ public class Login_view
     });
  //   textField.setForeground(new Color(169, 169, 169));
   //  textField.setDisabledTextColor(new Color(128, 128, 128));
-    id_t.setBackground(new Color(221,222,233));
+    id_t.setBackground(new Color(10,13,33));
     id_t.setBorder(null);
     id_t.setBounds(444, 204, 153, 20);
     f.getContentPane().add(id_t);
@@ -115,7 +113,7 @@ public class Login_view
     	}
     });
     pass_t.setBorder(null);
-    pass_t.setBackground(new Color(221,222,233));
+    pass_t.setBackground(new Color(10, 13, 33));
     pass_t.setForeground(new Color(0, 191, 255));
     pass_t.setBounds(444, 256, 153, 20);
     f.getContentPane().add(pass_t);
@@ -145,7 +143,7 @@ public class Login_view
     button.setBorderPainted(false);
     button.setBorder(new LineBorder(new Color(0, 191, 255), 5, true));
     button.setFocusPainted(false);
-    button.setBackground(Color.LIGHT_GRAY);
+    button.setBackground(new Color(2, 145, 255));
     button.setBounds(462, 325, 89, 23);
     f.getContentPane().add(button);
     
@@ -206,11 +204,11 @@ public class Login_view
         Point cursorLocation = me.getPoint();
         int xPos = cursorLocation.x;
         int yPos = cursorLocation.y;
-      //      if(xPos < 5) f.setCursor(Cursor.getPredefinedCursor(Cursor.W_RESIZE_CURSOR));
-     //      else if(xPos > f.getContentPane().getWidth()-5) f.setCursor(Cursor.getPredefinedCursor(Cursor.E_RESIZE_CURSOR));
-    //   else if(yPos < 5) f.setCursor(Cursor.getPredefinedCursor(Cursor.N_RESIZE_CURSOR));
-   //    else if(yPos > f.getContentPane().getHeight()-5) f.setCursor(Cursor.getPredefinedCursor(Cursor.S_RESIZE_CURSOR));
-  //    else if(f.getCursor().equals(Cursor.getDefaultCursor()) == false) f.setCursor(Cursor.getPredefinedCursor(Cursor.DEFAULT_CURSOR));
+  //      if(xPos < 5) f.setCursor(Cursor.getPredefinedCursor(Cursor.W_RESIZE_CURSOR));
+  //      else if(xPos > f.getContentPane().getWidth()-5) f.setCursor(Cursor.getPredefinedCursor(Cursor.E_RESIZE_CURSOR));
+     //   else if(yPos < 5) f.setCursor(Cursor.getPredefinedCursor(Cursor.N_RESIZE_CURSOR));
+    //    else if(yPos > f.getContentPane().getHeight()-5) f.setCursor(Cursor.getPredefinedCursor(Cursor.S_RESIZE_CURSOR));
+    //    else if(f.getCursor().equals(Cursor.getDefaultCursor()) == false) f.setCursor(Cursor.getPredefinedCursor(Cursor.DEFAULT_CURSOR));
       }
     });
   }
